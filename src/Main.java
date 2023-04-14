@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Андреев Григорий Даниилович РИБО-01-21");
         Thread thread1 = new Thread(new MyThread(), "Thread-0");
         Thread thread2 = new Thread(new MyThread(), "Thread-1");
         Thread thread3 = new Thread(new MyThread(), "Thread-2");
